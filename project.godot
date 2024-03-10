@@ -14,3 +14,7 @@ config/name="FarmRampage"
 run/main_scene="res://Scenes/root.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://Art/icon.svg"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
