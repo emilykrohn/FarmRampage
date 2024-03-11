@@ -6,6 +6,9 @@ class_name Entity
 var attack_damage: int = 2
 var health: int = 10
 
+func movement():
+	pass
+
 func attack(target: Entity) -> void:
 	target.take_damage(attack_damage)
 
